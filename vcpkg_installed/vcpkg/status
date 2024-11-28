@@ -1,0 +1,32 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 8f4092a0a49075ed2f7b0384647830d06f9e7b51c386b6e230ba84d8f5ed91cc
+Status: purge ok not-installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a59ba116a4057364137e1c8d9f466a33c495d2d0868765cb77fbbf2e3bd228ec
+Status: purge ok not-installed
+
+Package: fmt
+Version: 11.0.2
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 512d995643a448c6e55f49792748fd13a52480a67d493544912efbea32f04366
+Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+Status: purge ok not-installed
+
+Package: dirent
+Version: 1.24
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 314786c11dfef5e72f2ddbc1ac2fb0018fddf0c990834415a78da4b111cbed45
+Description: Dirent is a C/C++ programming interface that allows programmers to retrieve information about files and directories under Linux/UNIX. This project provides Linux compatible Dirent interface for Microsoft Windows.
+Status: purge ok not-installed
+
